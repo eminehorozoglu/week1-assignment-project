@@ -6,28 +6,139 @@
 body{
     background-color: peachpuff;
 }
-header{
+
+.container{
+    position: relative;
+    position: fixed;
+    display: flex;
+    z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.container{
-    position: relative;
-}
-.index{
+    h1{
+        font-size: 45px;
+    }
+
+    a   { 
+    text-decoration: none;
+    color:  rgb(11, 10, 10); 
+    }
+.link1:hover{
+    color: brown;
+    text-decoration:underline;
+}   
+.link2:hover{
+    color: brown;
+    text-decoration: underline;
+}   
+.link3:hover{
+    color: brown;
+    text-decoration: underline;
+}  
+.link4:hover{
+    color: brown;
+    text-decoration: underline;
+}  
+.link5:hover{
+    color: brown;
+    text-decoration: underline;
+}    
+.index  {
     position:fixed;
     display: inline;
     top: 10px;
-    left: 10px;
+    left: 6cm;
     color: white;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 
 img {
-    width: 99vw ;
+    width: 80vw ;
     height: 100vh;
+    border-radius: 75%;
+
   }
+  .auntum{
+    position: relative;
+ } 
+ .auntumh1{
+    position:absolute   ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style:groove;
+border-width: 5px;
+top:70vw;   
+left: 6cm;
+color: white;
+font-size: 100px;
+ }
+ .winter{
+    position: relative;
+ } 
+ .winterh1{
+position:absolute   ;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style:groove;
+border-width: 5px;
+border-color: rgb(161, 182, 79);
+top:120vw;   
+left: 10cm;
+color: rgb(161, 182, 79);
+font-size: 100px;
+ }
+ .spring{
+    position: relative;
+ } 
+ .springh1{
+position:absolute   ;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style:groove;
+border-width: 5px;
+border-color: white;
+top:165vw;   
+left: 4cm;
+color: white;
+font-size: 100px;
+ }
+ .summer{
+    position: relative;
+ } 
+ .summerh1{
+position:absolute   ;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style:groove;
+border-width: 5px;
+border-color:brown;
+top:215vw;   
+left: 7cm;
+color: orangered;
+font-size: 100px;
+ }
+
   footer{
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
    font-style: oblique;
+  }
+  .socialmedia{
+    position: relative;
+   
+  }
+  .sm1{
+    width: 3vw ;
+    height: auto;
+    border-radius: 60%;
+  }
+  .sm2{
+    width: 3vw ;
+    height: auto;
+    border-radius: 60%;
   }
