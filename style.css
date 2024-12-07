@@ -21,27 +21,27 @@ body{
 
     a   { 
     text-decoration: none;
-    color:  rgb(11, 10, 10); 
+    color:  rgb(249, 52, 12); 
     }
 .link1:hover{
     color: brown;
-    text-decoration:underline;
+    font-style: oblique;
 }   
 .link2:hover{
     color: brown;
-    text-decoration: underline;
+    font-style: oblique;
 }   
 .link3:hover{
     color: brown;
-    text-decoration: underline;
+    font-style: oblique;
 }  
 .link4:hover{
     color: brown;
-    text-decoration: underline;
+    font-style: oblique;
 }  
 .link5:hover{
     color: brown;
-    text-decoration: underline;
+    font-style: oblique;
 }    
 .index  {
     position:fixed;
@@ -57,6 +57,7 @@ img {
     width: 80vw ;
     height: 100vh;
     border-radius: 75%;
+    opacity: 0.7;
 
   }
   .auntum{
@@ -136,9 +137,11 @@ font-size: 100px;
     width: 3vw ;
     height: auto;
     border-radius: 60%;
+    opacity: 1;
   }
   .sm2{
     width: 3vw ;
     height: auto;
     border-radius: 60%;
+    opacity: 1;
   }
